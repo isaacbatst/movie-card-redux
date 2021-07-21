@@ -1,5 +1,4 @@
-# sd-015-b-live-lectures
-Repositório das aulas ao vivo da Turma 15 - Tribo B
+# Repositório das aulas ao vivo da Turma 15 - Tribo B
 
 Este repositório armazena os códigos e scripts fornecidos durante a aula ao vivo pelas pessoas especialista da Trybe.
 

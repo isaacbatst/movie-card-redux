@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class Player extends React.Component {
   render() {
@@ -7,7 +7,7 @@ class Player extends React.Component {
         <h1>Categoria 1</h1>
         <h2>Filme 1</h2>
       </div>
-    )
+    );
   }
 }
 

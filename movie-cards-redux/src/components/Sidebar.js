@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class Sidebar extends React.Component {
   render() {
@@ -7,13 +7,20 @@ class Sidebar extends React.Component {
     return (
       <aside>
         {
-          categories.map(category => (
-            <div key={category.id}>
+          categories.map((category) => (
+            <div key={ category.id }>
               <h3>{category.name}</h3>
               <ul>
                 {
-                  category.movies.map(movie => (
-                    <li key={movie.id}>{movie.title} was released in {movie.released}</li>
+                  category.movies.map((movie) => (
+                    <li key={ movie.id }>
+                      {movie.title}
+                      {' '}
+                      was released in
+                      {' '}
+                      {movie.released}
+
+                    </li>
                   ))
                 }
               </ul>
@@ -21,8 +28,8 @@ class Sidebar extends React.Component {
           ))
         }
       </aside>
-    )
+    );
   }
 }
 
-export default Sidebar
+export default Sidebar;
